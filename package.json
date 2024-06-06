@@ -1,0 +1,22 @@
+{
+  "name": "sole",
+  "version": "1.0.0",
+  "description": "catalogo de productos, ecommerce de tennis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carolina0709/Sole-Shoe-Store.git"
+  },
+  "author": "Carolina Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carolina0709/Sole-Shoe-Store/issues"
+  },
+  "homepage": "https://github.com/Carolina0709/Sole-Shoe-Store#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
