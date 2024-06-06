@@ -1,5 +1,3 @@
-
-https://github.com/Carolina0709/Sole-Shoe-Store/assets/71415586/40141837-4a0f-4f72-8c2c-0234681544b5
 # Sole-Shoe-Store
 ![Banner](https://github.com/Carolina0709/Sole-Shoe-Store/assets/71415586/5ffdec77-f80d-48a7-9cad-1b5039744907)
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-Terminado-brightgreen)
