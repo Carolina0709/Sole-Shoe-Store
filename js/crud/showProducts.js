@@ -9,18 +9,23 @@ export function createCard(name, price, image, id ){
     product.className = "ctn-card col-12 col-md-6 col-lg-3 mt-4";
     product.dataset.id = id;
     product.innerHTML=`
-        <div class="card ">
-            <img src="${image}" class="card-img-top" alt="Imagen de un tenis, con fondo claro">
-            <div class="card-body">
-                <h5 class="card-title color-brown">${name}</h5>
-                <p class="card-text">${price}</p>
-                <div class="w-100  d-flex justify-content-end">
-                    <a href="#" class="edit-btn btn btn-primary me-2 btn-brown-light" data-bs-toggle="modal" data-bs-target="#editCard"><i class="bi bi-pencil"></i></a>
-                    <a href="#" class="delete-btn btn btn-primary btn-brown"><i class="bi bi-trash-fill"></i></a>
-                </div>
-            </div>
-        </div>`;
+                <div class="card h-100">
+                    <img src="${image}" class="card-img-top h-100" alt="Imagen de un tenis, con fondo claro">
+                    <div class="card-body h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="card-title color-brown">${name}</h5>
+                            <p class="card-text">${price}</p>
+                        </div>
+                        <div class="w-100  d-flex justify-content-end">
+                            <a href="#" class="edit-btn btn btn-primary me-2 btn-brown-light" data-bs-toggle="modal" data-bs-target="#editCard"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="delete-btn btn btn-primary btn-brown"><i class="bi bi-trash-fill"></i></a>
+                        </div>
+                    </div>
+                </div>`;
        
+       
+                    
+              
     return product;
 }
 

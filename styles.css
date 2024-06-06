@@ -66,6 +66,11 @@ h1, footer h2{
     outline: none; 
 }
 
+.ctn-card{
+    height: 25rem;
+    max-width: 450px;
+}
+
 .btn-brown{
     border-color: #93775F;
     color: white;
@@ -148,6 +153,12 @@ footer .img-footer{
     .sectionLessBanner{
         height: calc(100vh - 500px);
         top: 500;
+    }
+}
+  
+@media (min-width: 750px) {
+    .ctn-card{
+        max-width: 100%;
     }
 }
   
